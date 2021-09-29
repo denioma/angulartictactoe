@@ -1,0 +1,22 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    gap: 0px;
+    margin-top: 5px;
+}
+
+app-square {
+    border: 1px gray solid;
+    height: 200px;
+}
+
+#controls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#controls button {
+    height: fit-content;
+    margin-left: 20px;
+}

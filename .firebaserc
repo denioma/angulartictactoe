@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "prod": "rmachado"
+  },
+  "targets": {
+    "rmachado": {
+      "hosting": {
+        "myapp": [
+          "rmachado"
+        ]
+      }
+    }
+  }
+}
